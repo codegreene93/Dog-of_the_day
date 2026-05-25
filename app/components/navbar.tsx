@@ -14,7 +14,7 @@ export const Navbar = ({onClick, rightButtonText, centreListItems, logo}: NavPro
     return (
         <div className="navbar bg-sky-500 shadow-sm">
             <div className="flex flex-grow justify-between">
-               <Link className={"pl-8"} to="/" href="/">
+               <Link className={"pl-8"} href="/">
                    <Logo />
                </Link>
                     <ul

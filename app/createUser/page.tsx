@@ -9,8 +9,7 @@ export default function createUser() {
                 <input name="name" placeholder="Name" />
                 <input name="email" type="email" placeholder="Email" />
                 <input name="password" type="password" placeholder="Password" />
-                <button type="submit">Sign in</button>
-                <ButtonLink href={"/createUser"} text={"Create User"}/>
+                <button type="submit">Create Account</button>
             </form>
             </>
     )

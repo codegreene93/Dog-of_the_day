@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 const Signin = () => {
     return (
@@ -7,8 +8,9 @@ const Signin = () => {
             <form >
                 <input name="email" type="email" placeholder="Email" />
                 <input name="password" type="password" placeholder="Password" />
-                <button type="submit">Create Account</button>
+                <button type="submit">Sign In</button>
             </form>
+            <Link href={"/createUser"} title={"Create Account"}>{"Create Account"}</Link>
         </>
     )
 }
